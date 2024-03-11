@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@drawable/ff7_remake_header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:paddingTop="10dp"
+            app:contentInsetEnd="24dp"
+            app:contentInsetStart="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="top|start"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/back"
+                android:onClick="onBackPressed"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_back"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/action_share"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="top|end"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/share"
+                android:onClick="onShareClicked"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_share"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_detail_photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="116dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/character_name"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_detail_photo"
+            app:layout_constraintVertical_bias="0.032" />
+
+        <TableLayout
+            android:id="@+id/tv_detail_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_description">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/age" />
+
+                <TextView
+                    android:id="@+id/tv_detail_age"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/age" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text= "@string/occupation" />
+
+                <TextView
+                    android:id="@+id/tv_detail_occupation"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/occupation" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/home" />
+
+                <TextView
+                    android:id="@+id/tv_detail_home"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/home" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/affiliation" />
+
+                <TextView
+                    android:id="@+id/tv_detail_affiliation"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/affiliation" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/race" />
+
+                <TextView
+                    android:id="@+id/tv_detail_race"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/race" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/gender" />
+
+                <TextView
+                    android:id="@+id/tv_detail_gender"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/gender" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/height" />
+
+                <TextView
+                    android:id="@+id/tv_detail_height"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/height" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/hair_color" />
+
+                <TextView
+                    android:id="@+id/tv_detail_haircolor"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/hair_color" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/eye_color" />
+
+                <TextView
+                    android:id="@+id/tv_detail_eyecolor"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/eye_color" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/blood_type" />
+
+                <TextView
+                    android:id="@+id/tv_detail_bloodtype"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/blood_type" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.BodyMedium.Bold"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/weapon" />
+
+                <TextView
+                    android:id="@+id/tv_detail_weapon"
+                    style="@style/TextContent.BodyMedium.Gray"
+                    android:layout_weight="1"
+                    android:text="@string/weapon" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

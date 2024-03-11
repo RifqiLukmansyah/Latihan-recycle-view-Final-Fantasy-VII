@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">Final Fantasy VII</string>
+    <string name="character_name">Nama Karakter</string>
+    <string name="description">Deskripsi</string>
+    <string name="age">Umur</string>
+    <string name="home">Tempat Tinggal</string>
+    <string name="affiliation">Afiliasi</string>
+    <string name="race">Ras</string>
+    <string name="gender">Gender</string>
+    <string name="height">Tinggi</string>
+    <string name="hair_color">Warna Rambut</string>
+    <string name="eye_color">Warna Mata</string>
+    <string name="blood_type">Golongan Darah</string>
+    <string name="weapon">Senjata</string>
+    <string name="occupation">Pekerjaan</string>
+    <string name="age1">Umur</string>
+    <string name="occupation1">Pekerjaan</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="about">About</string>
+    <string name="email">rifqi.lukmansyah@mhs.itenas.ac.id</string>
+    <string name="about_app_title">About App</string>
+    <string name="about_app_description">Final Fantasy VII Wiki</string>
+    <string name="Final_Fantasy_VII"> https://finalfantasy.fandom.com/wiki/Final_Fantasy_VII_Rebirth </string>
+    <string name="author">Rifqi Lukmansyah</string>
+    <string name="back">back</string>
+    <string name="share">share</string>
+    <string name="resource">Resource</string>
+    <string name="about_page">About Page</string>
+    <string name="title">Final Fantasy VII Rebirth</string>
+    <string name="developers">Developers</string>
+    <string name="publisher">Publisher</string>
+    <string name="genres">Genre(s)</string>
+    <string name="realease_dates">Realease Dates</string>
+    <string name="game_modes">Game Modes</string>
+    <string name="rating">Rating</string>
+    <string name="platforms">Platforms</string>
+    <string name="content_developers">Square Enix Creative Business Unit I)</string>
+    <string name="content_publisher">Square Enix</string>
+    <string name="content_genres">Action role-playing game</string>
+    <string name="content_realease_dates">February 29, 2024</string>
+    <string name="content_game_modes">Single player</string>
+    <string name="content_rating">ESRB: Teen Teen</string>
+    <string name="content_platforms">PlayStation 5</string>
+    <string name="todo">TODO</string>
+    <string-array name="data_name">
+        <item>Cloud Strife</item>
+        <item>Tifa Lockhart</item>
+        <item>Aerith Gainsborough</item>
+        <item>Barret Wallace</item>
+        <item>Red XIII</item>
+        <item>Zack Fair</item>
+        <item>Cait Sith</item>
+        <item>Vincent Valentine</item>
+        <item>Sephiroth</item>
+        <item>Jessie Rasberry</item>
+        <item>Yuffie Kisaragi</item>
+    </string-array>
+    <string-array name="data_home">
+        <item>Nibelheim</item>
+        <item>Nibelheim</item>
+        <item>Icicle Inn</item>
+        <item>Corel</item>
+        <item>Cosmo Canyon</item>
+        <item>Gongaga Village</item>
+        <item>UNKNOWN</item>
+        <item>UNKNOWN</item>
+        <item>Nibelheim</item>
+        <item>Midgar (Sector 7 slums)</item>
+        <item>Wutai</item>
+    </string-array>
+    <string-array name="data_affiliation">
+        <item>Avalanche</item>
+        <item>Avalanche</item>
+        <item>Avalanche</item>
+        <item>Avalanche</item>
+        <item>Avalanche</item>
+        <item>Shinra Electric Power Company</item>
+        <item>Avalanche</item>
+        <item>UNKNOWN</item>
+        <item>Shinra Electric Power Company</item>
+        <item>Avalanche</item>
+        <item>Avalanche</item>
+    </string-array>
+    <string-array name="data_race">
+        <item>Human</item>
+        <item>Human</item>
+        <item>Half-Cetra/human</item>
+        <item>Human</item>
+        <item>Red XIII</item>
+        <item>Robot</item>
+        <item>Human</item>
+        <item>Human</item>
+        <item>Human</item>
+        <item>Human</item>
+        <item>Human</item>
+    </string-array>
+    <string-array name="data_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>FeMale</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Unknown</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="data_height">
+        <item>173 cm</item>
+        <item>167 cm</item>
+        <item>163 cm</item>
+        <item>197 cm</item>
+        <item>120 cm</item>
+        <item>185 cm</item>
+        <item>100 cm</item>
+        <item>184 cm</item>
+        <item>197 cm</item>
+        <item>160 cm</item>
+        <item>160 cm</item>
+    </string-array>
+    <string-array name="data_hair_color">
+        <item>Blond</item>
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>fur</item>
+        <item>Black</item>
+        <item>Black</item>
+        <item>Black</item>
+        <item>Silver</item>
+        <item>Brown</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="data_eye_color">
+        <item>Blue (Light green mako glow)</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Brown</item>
+        <item>Ochre</item>
+        <item>Blue (Light green glow) "mako eyes"</item>
+        <item>Cat</item>
+        <item>Red (original continuity) Red and gold (Remake trilogy)</item>
+        <item>Bright Cyan with slit cat-like pupils</item>
+        <item>Brown</item>
+        <item>Dark Brown</item>
+    </string-array>
+    <string-array name="data_blood_type">
+        <item>AB</item>
+        <item>B</item>
+        <item>O</item>
+        <item>O</item>
+        <item>Unknown</item>
+        <item>O</item>
+        <item>Unknown</item>
+        <item>A</item>
+        <item>Unknown</item>
+        <item>O</item>
+        <item>A</item>
+    </string-array>
+    <string-array name="data_weapon">
+        <item>Broadswords</item>
+        <item>Knuckles</item>
+        <item>Staves</item>
+        <item>Gun-arms</item>
+        <item>Headdresses</item>
+        <item>Broadswords</item>
+        <item>Megaphones</item>
+        <item>Guns</item>
+        <item>Masamune</item>
+        <item>Bomb</item>
+        <item>Shuriken</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Cloud Strife, awalnya seorang pendekar pedang yang angkuh dan sombong, Cloud memperkenalkan dirinya kepada Avalanche sebagai mantan anggota dari unit prajurit elit bernama SOLDIER yang kini beralih menjadi tentara bayaran, dan tidak tertarik pada apapun di luar tugas yang disewanya. Di balik kepribadian luarnya yang keras, ia sejatinya adalah individu yang lebih lembut dan penuh perhatian, namun  berjuang untuk terbuka dan menjadi seorang pahlawan. Cloud kemudian menggali lebih dalam tentang masa lalunya dan, dengan bantuan teman-temannya, menyadari bahwa menjadi seorang pahlawan lebih dari sekedar memiliki kekuatan fisik dan popularitas. Dia mengembangkan rasa peduli terhadap planet dan orang-orang yang dia perjuangkan untuk lindungi dari Shinra Electric Power Company dan musuh besarnya, Sephiroth.</item>
+        <item>Tifa Lockhart, Tifa dibesarkan bersama Cloud di Nibelheim, tetapi kehilangan kontak dengannya bertahun-tahun lalu. Ketika mereka bertemu lagi, Tifa meyakinkan Cloud untuk bergabung dengan Avalanche guna melawan Shinra Electric Power Company, perusahaan yang sangat ia benci karena telah menghancurkan kota asal mereka. Tifa mendukung Cloud sebagai rekan perjuangan dan membantu Cloud beserta sekutu-sekutunya melawan Sephiroth. Tifa adalah sosok  pendiam, bermoral tinggi, dan penuh empati, bertindak sebagai figur keibuan bagi para sekutunya dengan memberikan dorongan dan dukungan emosional. Dia juga berperan sebagai suara nalar yang mengajak mereka untuk berpikir ulang dan melakukan hal yang benar.</item>
+        <item>Aerith Gainsborough, Aerith adalah anggota terakhir dari Cetra, sebuah ras kuno dengan kemampuan sihir yang hebat. Karenanya, Shinra Electric Power Company memburunya sepanjang hidupnya, berusaha memanfaatkan kekuatannya. Dia bertemu dengan Cloud Strife di Midgar, dan mereka menjadi dekat. Pertemuan ini mendorong Aerith untuk bergabung dalam misi Cloud untuk melawan Shinra dan memburu Sephiroth. Aerith adalah sosok yang ceria, riang, dan penuh suka cita. Dia kerap menggoda Cloud serta menunjukkan rasa peduli yang tinggi terhadap orang lain.</item>
+        <item>Barret Wallace, Barret berjuang habis-habisan demi tujuannya melindungi planet. Dia sangat peduli pada sekutunya, memotivasi mereka dengan pidato-pidato kuat, sekaligus bertempur langsung di garis depan operasi pemberontakannya (cell). Tujuan mulianya untuk menyelamatkan planet sebenarnya hanyalah kedok bagi dendam dan kemarahan pribadinya, hal yang nantinya harus ia terima dengan lapang dada. Terlepas dari sikapnya yang kasar dan terkadang penuh kekerasan, Barret memiliki hati yang baik, serta selalu terbelah antara pertempuran dan merawat putrinya, Marlene.</item>
+        <item>Red XIII, Red XIII adalah nama yang dia terima sebagai kode spesimen ketika ditahan dan dijadikan bahan eksperimen oleh Profesor Hojo. Walaupun sudah berusia 48 tahun, jika dibandingkan dengan standar umur panjang rasnya, ia setara dengan manusia berusia 15 atau 16 tahun. Seiring dia beranjak dewasa, Red XIII berjuang bersama Cloud Strife dan para sekutunya demi memenuhi tugasnya kepada planet ini untuk melindunginya sebagai seorang pejuang.</item>
+        <item>Zack Fair, Zack adalah anggota SOLDIER, divisi militer elit dari Shinra Electric Power Company yang berpengaruh. Ia berasal dari pedesaan, sebuah desa bernama Gongaga, dan bercita-cita menjadi pahlawan. Di bawah bimbingan Angeal Hewley, Zack menjadi SOLDIER Kelas Satu, dan akhirnya mewarisi Buster Sword miliknya, menjadi salah satu elit perusahaan yang paling dapat diandalkan bersama Sephiroth. Setelah serangkaian krisis yang berasal dari program SOLDIER Shinra Electric Power Company, Zack akhirnya menyerahkan Buster Sword kepada salah satu sahabat dan rekannya, Cloud Strife. Meskipun ada konflik di sekitarnya, Zack tetap teguh dan optimis, berpegang pada kompas moralnya sendiri, dan berkomitmen untuk selalu ada untuk pacarnya, Aerith Gainsborough.</item>
+        <item>Cait Sith, Cait Sith dikendalikan dari jarak jauh dengan banyak salinan yang dimilikinya. Dia mengendalikan boneka moogle dengan sebuah megafon.  Cait Sith bekerja sebagai peramal nasib di Gold Saucer sebelum bergabung dengan kelompok Cloud Strife dengan motif yang awalnya misterius. Meskipun pada awalnya ada pertentangan dengan para anggota, perjalanan bersama mereka membuat Cait Sith merenungkan hidup dan tujuannya sendiri, hingga seiring waktu dia menjadi anggota yang setia</item>
+        <item>Vincent Valentine, Mantan anggota Turk dengan masa lalu misterius, Vincent menggunakan pistol dalam pertempuran. Limit Break miliknya menyebabkan perubahan wujud sebagai hasil dari eksperimen yang dilakukan Profesor Hojo kepadanya. Saat bertransformasi, statistiknya meningkat dan dia mendapatkan serangan baru yang kuat, namun ia menjadi tak terkendali sampai pertempuran usai atau sampai dia jatuh ke status Death (mati).</item>
+        <item>Sephiroth, Sebelum kejatuhannya, Sephiroth adalah salah satu kisah sukses paling terkenal dari program SOLDIER di Shinra Electric Power Company. Pencapaiannya di medan pertempuran selama konflik ambisi Shinra mendominasi dunia membuatnya menjadi pahlawan perang selebriti, serta simbol bagi Militer Shinra dan program SOLDIER. Mengetahui asal-usulnya yang sebenarnya membuatnya gila, melahirkan dorongan untuk menghancurkan dunia dalam usahanya yang gila untuk menjadi dewa.</item>
+        <item>Jessie Rasberry, Jessie adalah mekanik di sel Avalanche pimpinan Barret. Dia ahli dalam menyediakan bahan peledak, kartu identitas palsu, dan berbagai peralatan dan perlengkapan yang dibutuhkan untuk misi mereka. Jessie pada umumnya adalah sosok yang percaya diri dan optimis, namun dibebani rasa bersalah akibat kehancuran yang disebabkan oleh bom-bomnya. Dia kerap menggoda Cloud Strife dan sering dipasangkan dengannya dalam menjalankan misi.</item>
+        <item>Yuffie Kisaragi, si pemburu materia, bisa ditemukan menjelajahi hutan-hutan di planet ini. Sebagai ninja yang gesit dan penuh tipu daya, ia bertekad mengembalikan kejayaan Wutai, tanah kelahirannya yang dahulu perkasa sebelum ditaklukkan Shinra Electric Power Company. Awalnya Yuffie membantu kelompok Cloud hanya demi keuntungan pribadi, tetapi seiring waktu ia berteman dengan mereka dan menjadi anggota tim yang penting. Walau kadang menyebalkan, Yuffie pada dasarnya ramah, suka membantu, optimis, dan selalu siap bertempur bersama sekutunya.</item>
+    </string-array>
+    <string-array name="data_age">
+        <item>21 Tahun</item>
+        <item>20 Tahun</item>
+        <item>22 Tahun</item>
+        <item>35 Tahun</item>
+        <item>48 Tahun</item>
+        <item>23 Tahun</item>
+        <item>10 Tahun</item>
+        <item>27 Tahun</item>
+        <item>25 Tahun</item>
+        <item>23 Tahun</item>
+        <item>16 Tahun</item>
+    </string-array>
+    <string-array name="data_occupation">
+        <item>Mercenary </item>
+        <item>Avalanche member </item>
+        <item>Florist </item>
+        <item>Leader in Avalanche </item>
+        <item>Research Specimen</item>
+        <item>SOLDIER</item>
+        <item>Toysaurus </item>
+        <item>Former Turk</item>
+        <item>SOLDIER First Class </item>
+        <item>Avalanche </item>
+        <item>Ninja </item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/f/ff/Cloud_Strife_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304071651</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/4/44/Tifa_Lockhart_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304072953</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/a/a8/Aerith_Gainsborough_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304072023</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/2/2b/Barret_Wallace_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304072419</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/3/36/Red_XIII_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304073229</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/2/23/Zack_Fair_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304074637</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/e/e9/Cait_Sith_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304073551</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/6/6c/Vincent_Valentine_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20231208100738</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/0/0a/Sephiroth_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304074459</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/1/1d/Jessie_from_Final_Fantasy_VII_Remake_render.png/revision/latest?cb=20200303193240</item>
+        <item>https://static.wikia.nocookie.net/finalfantasy/images/c/c8/Yuffie_Kisaragi_from_FFVII_Rebirth_bust_render.png/revision/latest?cb=20240304073412</item>
+    </string-array>
+    <integer-array name="dataphoto">
+        <item>@drawable/cloud</item>
+        <item>@drawable/tifa</item>
+        <item>@drawable/aerith</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/tifa</item>
+        <item>@drawable/aerith</item>
+        <item>@drawable/tifa</item>
+        <item>@drawable/aerith</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/tifa</item>
+        <item>@drawable/aerith</item>
+    </integer-array>
+</resources>
